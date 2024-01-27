@@ -26,7 +26,7 @@ def recommend(movie):
     return recommended_movie_names,recommended_movie_posters
 
 
-st.header('Movie Recommender System-Made By Yashvardhan Singh')
+st.header('Movie Recommender System-Made By Yashvardhan Sing')
 movies = pickle.load(open('movie_list.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
 
