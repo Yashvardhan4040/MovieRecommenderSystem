@@ -38,7 +38,7 @@ def recommend(movie):
     return recommended_movie_names, recommended_movie_posters
 
 # Streamlit app
-st.header('Movie Recommender System - Made By Yashvardhan Sing')
+st.header('Movie Recommender System - Made By Yashvardhan Singh')
 
 # Load data and similarity matrix
 movies = pickle.load(open('movie_list.pkl', 'rb'))
